@@ -1,0 +1,7 @@
+
+\
+java:S4684/"@Replace this persistent entity with a simple POJO or DTO object.(ã‰8¬¶ .
+}
+java:S1128"[Remove this unused import 'com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand'.(şÌ—êşÿÿÿÿ8Íí¨•µ.
+j
+java:S1128"HRemove this unused import 'org.springframework.web.client.RestTemplate'.(Îö¼Şûÿÿÿÿ8«ÙŒ .

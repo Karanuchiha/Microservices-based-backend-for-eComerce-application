@@ -1,0 +1,17 @@
+
+O
+java:S1128"2Remove this unused import 'javax.jms.TextMessage'.(ü¹·Ö8Şµ½¶£.
+P
+java:S1128".Remove this unused import 'javax.jms.Session'.(İŸş—úÿÿÿÿ8Şµ½¶£.
+w
+java:S3305"aInject this field value directly into "processEngineConfiguration", the only method that uses it.(”ÎÀÙ
+b
+java:S1128"ERemove this unused import 'org.springframework.jms.core.JmsTemplate'.(Æïø„8Şµ½¶£.
+P
+java:S1128".Remove this unused import 'javax.jms.Message'.(óÓ®¡üÿÿÿÿ8Şµ½¶£.
+P
+java:S1128"3Remove this unused import 'javax.jms.JMSException'.(ú°’ú8Şµ½¶£.
+e
+java:S1128"HRemove this unused import 'org.springframework.jms.core.MessageCreator'.(È©äŸ8Şµ½¶£.
+l
+java:S1128"ORemove this unused import 'org.springframework.beans.factory.annotation.Value'.(ìø›8Şµ½¶£.

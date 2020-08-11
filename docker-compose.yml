@@ -1,0 +1,103 @@
+version: "3.7"
+
+services:
+  eurekaService:
+    image: eureka-service:0.0.1-SNAPSHOT
+    ports:
+      - "8761:8761"
+
+  gatewayService:
+    image: gateway-service:0.0.1-SNAPSHOT
+    ports:
+      - "8080:8080"
+    links:
+      - eurekaService
+      - userService
+#      - productService
+      - reviewService
+#      - salesService
+
+  userService:
+    image: user-service:0.0.1-SNAPSHOT
+
+
+#  productService:
+#    image: product-service:0.0.1-SNAPSHOT
+#    links:
+#      - productmongodb
+#    depends_on:
+#      - productmongodb
+#
+#  productmongodb:
+#    image: mongo:latest
+#    container_name: "productmongodb"
+#    ports:
+#      - "27018:27017"
+
+
+  reviewService:
+    image: review-service:0.0.1-SNAPSHOT
+    links:
+      - reviewmongodb
+    depends_on:
+      - reviewmongodb
+
+  reviewmongodb:
+    image: mongo:latest
+    container_name: "reviewmongodb"
+    ports:
+      - "27019:27017"
+
+#  activemq:
+#    image: rmohr/activemq:5.15.9-alpine
+#    ports:
+#      - 8161:8161
+#      - 61616:61616
+#
+#  NotificationService:
+#    image: notification-service:0.0.1-SNAPSHOT
+#    links:
+#      - activemq
+#    depends_on:
+#       - activemq
+#
+#
+#
+#  salesService:
+#    image: sales-service:0.0.1-SNAPSHOT
+#    links:
+#      - salesmysqldb
+#      - activemq
+#    depends_on:
+#      - salesmysqldb
+#      - activemq
+#
+#  salesmysqldb:
+#    image: mysql:8.0.19
+#    ports:
+#      - "3306:3306"
+#    command: --default-authentication-plugin=mysql_native_password
+#    environment:
+#      MYSQL_ROOT_PASSWORD: password
+#      MYSQL_DATABASE: sales
+#      MYSQL_USER: salesUser
+#      MYSQL_PASSWORD: password
+#      MYSQL_ROOT_HOST: '%'
+#    cap_add:
+#      - SYS_NICE  # CAP_SYS_NICE
+#
+#
+#
+#  portainer:
+#    image: portainer/portainer
+#    command: -H unix:///var/run/docker.sock
+#    restart: always
+#    ports:
+#      - 9000:9000
+#      - 8000:8000
+#    volumes:
+#      - /var/run/docker.sock:/var/run/docker.sock
+#      - portainer_data:/data
+#
+#volumes:
+#  portainer_data:

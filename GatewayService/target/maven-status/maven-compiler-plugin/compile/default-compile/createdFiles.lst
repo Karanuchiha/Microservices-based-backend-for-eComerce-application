@@ -1,0 +1,4 @@
+com\bearingpoint\gatewayservice\configuration\SecurityConfiguration.class
+com\bearingpoint\gatewayservice\GatewayService.class
+com\bearingpoint\gatewayservice\controllers\SwaggerController.class
+com\bearingpoint\gatewayservice\controllers\SwaggerConfig.class

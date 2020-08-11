@@ -1,0 +1,30 @@
+
+c
+java:S1128
+"ARemove this unused import 'org.springframework.http.HttpHeaders'.(ãŸñ×úÿÿÿÿ8“æ¦ž .
+X	java:S125"<This block of commented-out lines of code should be removed.(Š‰ÌÉ8¥×Ö˜µ.
+[
+java:S1128"@Remove this unused import 'org.springframework.http.HttpMethod'.(Ê¨Ä¡øÿÿÿÿ
+U
+java:S1128"8Remove this unused import 'java.util.function.Function'.(»³Íž8åá¢—µ.
+v
+java:S1128"TRemove this unused import 'org.springframework.web.client.HttpClientErrorException'.(ð»òøÿÿÿÿ8³ŽŸ•µ.
+P
+java:S1172<".Remove this unused method parameter "gateway".(É†¼£úÿÿÿÿ8œ©•µ.
+u
+java:S1128"SRemove this unused import 'org.springframework.web.client.ResourceAccessException'.(ûÞð†ùÿÿÿÿ8³ŽŸ•µ.
+W
+java:S1128":Remove this unused import 'org.reactivestreams.Publisher'.(²°˜8åá¢—µ.
+x
+java:S1128"VRemove this unused import 'com.bearingpoint.reviewservice.exceptions.ReviewException'.(¤ŸØýÿÿÿÿ8Ý¤¡•µ.
+b
+java:S1128"@Remove this unused import 'org.springframework.http.HttpStatus'.(íŸ¤Šúÿÿÿÿ8³ŽŸ•µ.
+]
+java:S1128	"@Remove this unused import 'org.springframework.http.HttpEntity'.(ÂéŽÓ8“æ¦ž .
+j	java:S1007"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³¢í8ÏË²’µ.
+P
+java:S1172)".Remove this unused method parameter "gateway".(ÙµÁ¢ùÿÿÿÿ8®‹‘™µ.
+}
+java:S1128"[Remove this unused import 'com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand'.(þÌ—êþÿÿÿÿ8úùØ”µ.
+c
+java:S1128"HRemove this unused import 'org.springframework.web.client.RestTemplate'.(Îö¼Þûÿÿÿÿ

@@ -1,0 +1,5 @@
+
+b
+java:S4684 "@Replace this persistent entity with a simple POJO or DTO object.(·ƒ€ωÿÿÿÿ8λιª¶£.
+_
+java:S3655M"=Call "persistedorder.isPresent()" before accessing the value.(Θβ°Ϊÿÿÿÿÿ8λιª¶£.

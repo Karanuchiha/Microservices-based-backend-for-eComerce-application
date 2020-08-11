@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Common/Common.iml" filepath="$PROJECT_DIR$/Common/Common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EurekaService/EurekaService.iml" filepath="$PROJECT_DIR$/EurekaService/EurekaService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GatewayService/GatewayService.iml" filepath="$PROJECT_DIR$/GatewayService/GatewayService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Java%20EcoSystem%20%E2%80%93%20Spring%20Boot.iml" filepath="$PROJECT_DIR$/.idea/Java%20EcoSystem%20%E2%80%93%20Spring%20Boot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NotificationService/NotificationService.iml" filepath="$PROJECT_DIR$/NotificationService/NotificationService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ProductService/ProductService.iml" filepath="$PROJECT_DIR$/ProductService/ProductService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ReviewService/ReviewService.iml" filepath="$PROJECT_DIR$/ReviewService/ReviewService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SalesService/SalesService.iml" filepath="$PROJECT_DIR$/SalesService/SalesService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UserService/UserService.iml" filepath="$PROJECT_DIR$/UserService/UserService.iml" />
+    </modules>
+  </component>
+</project>
